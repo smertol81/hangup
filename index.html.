@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangUp - Phone Cases and Straps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffe4e1;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff69b4;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #ff69b4;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            width: calc(33% - 40px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .instagram-feed {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .instagram-feed img {
+            width: calc(33% - 20px);
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HangUp</h1>
+        <p>Your one-stop shop for stylish phone cases and straps</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#cases">Cases</a>
+        <a href="#straps">Straps</a>
+        <a href="#clients">From You</a>
+        <a href="#instagram">Instagram</a>
+    </nav>
+
+    <section id="home">
+        <h2 class="section-title">Welcome to HangUp</h2>
+        <p>At HangUp, we offer the most stylish and functional phone cases and straps, perfect for brides, new moms, and anyone who loves to accessorize their phone.</p>
+    </section>
+
+    <section id="cases">
+        <h2 class="section-title">Our Cases</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="https://example.com/case1.jpg" alt="Case 1">
+                <p>Elegant Floral Case</p>
+            </div>
+            <div class="product-item">
+                <img src="https://example.com/case2.jpg" alt="Case 2">
+                <p>Marble Effect Case</p>
+            </div>
+            <div class="product-item">
+                <img src="https://example.com/case3.jpg" alt="Case 3">
+                <p>Glittery Glam Case</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="straps">
+        <h2 class="section-title">Our Straps</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="https://example.com/strap1.jpg" alt="Strap 1">
+                <p>Pastel Beaded Strap</p>
+            </div>
+            <div class="product-item">
+                <img src="https://example.com/strap2.jpg" alt="Strap 2">
+                <p>Leather Strap</p>
+            </div>
+            <div class="product-item">
+                <img src="https://example.com/strap3.jpg" alt="Strap 3">
+                <p>Rainbow Chain Strap</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients">
+        <h2 class="section-title">From You</h2>
+        <p>We love to see how you style our products! Share your photos with us on Instagram using #HangUpStyle.</p>
+    </section>
+
+    <section id="instagram">
+        <h2 class="section-title">Instagram</h2>
+        <div class="instagram-feed">
+            <!-- Add your Instagram integration here -->
+            <img src="https://example.com/insta1.jpg" alt="Instagram 1">
+            <img src="https://example.com/insta2.jpg" alt="Instagram 2">
+            <img src="https://example.com/insta3.jpg" alt="Instagram 3">
+        </div>
+    </section>
+
+    <footer>
+        <p>Follow us on Instagram: <a href="https://www.instagram.com/hangup" style="color: white;">@hangup</a></p>
+    </footer>
+</body>
+</html>
